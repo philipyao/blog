@@ -1,3 +1,41 @@
-languageCode = "en-us"
-title = "philip's blog"
+baseurl = "https://philipyao.github.io"
+languageCode = "zh_CN"
+title = "philip's Github Pages"
 theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+pygmentsCodefencesGuessSyntax = true
+#googleAnalytics = "XXX"
+
+[Params]
+  authorlocation = "Shanghai, China"
+  homeTitle = "Home Page"
+  subtitle = "Do not be worrier, be warrior"
+  logo = "img/avatar-icon.png"
+  #favicon = "img/favicon.ico"
+  rss = true
+  comments = true
+  readingTime = true
+
+[Author]
+  name = "philipyao"
+  email = "sjtutrume@gmail.com"
+  github = "philipyao"
+  youtube = "channel/UC0cDyTwuCCmUaVgJ4avRbjQ"
+
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 3
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
